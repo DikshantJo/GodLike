@@ -1,0 +1,47 @@
+.nav{
+   overflow: hidden;
+   background-color: #f4f0ea;
+   padding: 0 30px;
+   border-radius: 0 0 24px 24px;
+
+   .wrapper{
+        display: flex;
+        gap: 50px;
+        margin-bottom: 80px;
+        padding-bottom: 30px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .nav{
+        .wrapper{
+            margin-bottom: 0px;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width:1000px) {
+    .nav{
+        .wrapper{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width:550px){
+    .nav{
+        .wrapper{
+            margin-bottom: 10px;
+            justify-content: space-between;
+            padding-bottom: 15px;
+        }
+    }
+}
+
