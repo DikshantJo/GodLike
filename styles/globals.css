@@ -5,7 +5,7 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,10 +24,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    min-height: 100vh;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 74px;
+}
+
+/* .policiesPages > blockquote, .policiesPages > dl, .policiesPages > dd,.policiesPages >
+h1, .policiesPages >h2, .policiesPages >h3,.policiesPages > h4, .policiesPages >h5,
+.policiesPages >h6, hr, .policiesPages >figure, .policiesPages >p, .policiesPages >pre {
+    margin: revert-layer;
+} */
+
+li{
+  /* text-decoration: dotted; */
+  list-style: disc;
 }
