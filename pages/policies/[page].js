@@ -10,7 +10,7 @@ import HeaderNew from '@/components/HeaderInternal/Index'
 import Footer from '@/components/FooterInternal/FooterInternal'
 
 
-const page = ({ currentRoute, query }) => {
+const Page = ({ currentRoute, query }) => {
   const [Policies, setPolicies] = useState();
   const [Invalid, setinvalid] = useState(false);
   const [PageTitle, setPageTitle] = useState();
@@ -110,4 +110,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default page
+export default Page

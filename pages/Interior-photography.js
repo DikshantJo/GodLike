@@ -29,7 +29,7 @@ import FAQ from '@/components/FAQ/FAQParent'
 import Contact from '@/components/Contact/Contact';
 import { background } from '@/components/HeaderInternal/anim';
 
-const page = () => {
+const Page = () => {
   const [activeTab, setActiveTab] = useState(1);
   const [isLoading, setIsLoading] = useState(true);
   const [loadingAssist, setLoadingAssist] = useState(true);
@@ -116,4 +116,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

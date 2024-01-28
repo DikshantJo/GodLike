@@ -150,7 +150,7 @@ const ContactForm = () => {
         onSubmit={handleSubmit}
       >
             <div className="flex flex-col w-full gap-4">
-              <h3 className='text-[32px] font-bold'>let's connect!</h3>
+              <h3 className='text-[32px] font-bold'>let&apos;s connect!</h3>
               <div className='flex flex-wrap w-full gap-4'>
                 <div className="flex flex-col gap-4 w-[100%] lg:w-[48%]">
                   <label htmlFor="name">Name</label>

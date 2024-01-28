@@ -7,8 +7,8 @@ import { AnimatePresence } from 'framer-motion';
 import Nav from './nav';
 // import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import Rounded from '../../common/RoundedButton';
-// import Magnetic from '../../common/Magnetic';
+import Rounded from '../../common/RoundedButton';
+import Magnetic from '../../common/Magnetic';
 
 import Link from 'next/link';
 

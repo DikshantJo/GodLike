@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Hero from '@/components/HeroAutoScroll/index';
-import HeaderNew from '@/components/HeaderNewInternal/Index';
+import HeaderNew from '@/components/HeaderInternal/Index';
 // import Header from '@/components/HeaderInternal/Index';
 import Footer from '@/components/FooterInternal/FooterInternal';
 import FAQ from '@/components/FAQ/FAQParent';
@@ -25,7 +25,7 @@ const ContactForm = () => {
             Quotation 
             <span style={{color:'#777', marginLeft:'16px'}}>Inquiry</span>
             </h1>
-          <span className='block w-full text-center text-sm lg:text-lg text-black'>Need a price estimate? Provide us with the necessary information, and we'll promptly send you a customized quotation.</span>
+          <span className='block w-full text-center text-sm lg:text-lg text-black'>Need a price estimate? Provide us with the necessary information, and we&apos;ll promptly send you a customized quotation.</span>
           <div className='w-full flex justify-center items-center mt-8'>
             <Link href='./Quote/productPhotography' className='w-[150px] lg:w-[250px] h-[45px] lg:h-[55px] flex justify-center items-center mr-1 lg:mr-4 text-sm' style={{background:'#000',color:'#fff', borderRadius:'12px'}}>Product photography</Link>
             <Link href='./Quote/InteriorPhotography' className='w-[150px] lg:w-[250px] h-[45px] lg:h-[55px] flex justify-center items-center ml-1 lg:ml-4 text-sm' style={{background:'#fff',color:'#000', border:'1px solid black', borderRadius:'12px'}}>Interior photography</Link>

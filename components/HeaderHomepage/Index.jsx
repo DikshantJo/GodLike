@@ -7,7 +7,7 @@ import { opacity, background } from './anim';
 import Nav from './nav/index';
 import Image from 'next/image';
 
-export default function index() {
+export default function Index() {
     
     const [isActive, setIsActive] = useState(false);
 

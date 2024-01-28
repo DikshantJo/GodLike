@@ -92,7 +92,7 @@ const FAQ = () => {
         <div className={`flex flex-col md:flex-row justify-between items-center ${style.ContactFormContainer} ${raleway.className}`}>
           <div className='flex flex-col items-start'>
             <h3 className={`text-center ${style.ContactFormTitle} lg:text-md`}>Still have questions?</h3>
-            <p className={`${style.contactFormText} lg:text-sm`}>Can't find the answer you are looking for? Feel free to ask it directly from us.</p>
+            <p className={`${style.contactFormText} lg:text-sm`}>Can&apos;t find the answer you are looking for? Feel free to ask it directly from us.</p>
           </div>
           <button className='bg-black text-white px-4 py-3 rounded-xl mt-2 font-semibold w-full md:w-[200px] lg:text-sm'>
             <Link href="#"> Ask a Question </Link>

@@ -64,7 +64,7 @@ export default function CareersForm() {
           <span className="mb-4 block" style={{color:'#777'}}>Quote for <br></br></span> Interior photography
         </h2>
         <p className="text-gray-400 px-4 lg:w-[65vw] m-auto mt-2 lg:text-[20px]leading-relaxed">
-          As each project is different, we find there's no one price fits all.So we can provide you with an accurate quote, please take a few minutes to fill out the creative brief below.If you're not sure on something that's totally ok! We're here to help provide creative direction and offer ideas as well.
+          As each project is different, we find there&apos;s no one price fits all.So we can provide you with an accurate quote, please take a few minutes to fill out the creative brief below.If you&apos;re not sure on something that&apos;s totally ok! We&apos;re here to help provide creative direction and offer ideas as well.
         </p>
       </div>
 
@@ -369,7 +369,7 @@ export default function CareersForm() {
 
             {/* Additional information */}
 
-            <h4 className="mb-4 font-bold">Let's understand your requirement even better</h4>
+            <h4 className="mb-4 font-bold">Let&apos;s understand your requirement even better</h4>
 
             {/* Location preference */}
             <div className="mb-6">
@@ -419,7 +419,7 @@ export default function CareersForm() {
               {/*props */}
               <div className="mb-6">
               <label htmlFor="props" className="block text-sm font-medium text-gray-700">
-                Please list any specific props you'd like to see (or not see) in the photos:
+                Please list any specific props you&apos;d like to see (or not see) in the photos:
               </label>
               <textarea
                 id="props"
@@ -464,7 +464,7 @@ export default function CareersForm() {
             {/*brand colors */}
             <div className="mb-6">
               <label htmlFor="brandColors" className="block text-sm font-medium text-gray-700">
-                What are your brand's colours? Please list both colour names and hex codes
+                What are your brand&apos;s colours? Please list both colour names and hex codes
               </label>
               <textarea
                 id="brandColors"
@@ -493,7 +493,7 @@ export default function CareersForm() {
             {/* References*/}
             <div className="mb-6">
               <label htmlFor="References" className="block text-sm font-normal text-gray-700 mb-4">
-              Please upload any reference or inspo images/other brands to this document or please send via DM on Instagram. Inspo images are really important to help us visualise the style you're after and ensure we are on the same page visually.
+              Please upload any reference or inspo images/other brands to this document or please send via DM on Instagram. Inspo images are really important to help us visualise the style you&apos;re after and ensure we are on the same page visually.
               </label>
               <input
                 type="file"
