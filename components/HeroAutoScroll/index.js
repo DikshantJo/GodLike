@@ -64,7 +64,7 @@ const index = () => {
                 <div className={`${style.slidetrack} `}>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src ={autoScrollImageI}></img>
+                        <img className={`${style.img}`} src ={'https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80'}></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
