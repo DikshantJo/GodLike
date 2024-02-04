@@ -30,7 +30,7 @@ import Image11 from '../../public/Home/product shoot7240.jpg'
 import Image12 from '../../public/Home/Product III.jpg'
 
 
-import autoScrollImageI from '../../public/Home/AutoscrollLanding/img1.jpeg'
+// import autoScrollImageI from '../../public/Home/AutoscrollLanding/img1.jpeg'
 
 const images = [
     'https://plus.unsplash.com/premium_photo-1675982631977-0e4f08339bfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80',
