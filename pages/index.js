@@ -108,7 +108,7 @@ const Page = () => {
       ];
 
   return (
-    <div>
+    <div style={{ overflow: 'hidden' }}>
       <Header />
       {loadingAssist ? 
       <AnimatePresence mode='wait'>
