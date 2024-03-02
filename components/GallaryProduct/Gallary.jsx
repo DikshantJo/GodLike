@@ -44,9 +44,9 @@ const Gallery = ({ images }) => {
       const touchEndX = e.touches[0].clientX;
       const deltaX = touchEndX - touchStartX;
       console.log(deltaX)
-      if (deltaX > 1500) {
+      if (deltaX > 15) {
         navigateImages(-1); // Swipe right
-      } else if (deltaX < -50) {
+      } else if (deltaX < -15) {
         navigateImages(1); // Swipe left
       }
     }
