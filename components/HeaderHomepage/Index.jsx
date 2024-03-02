@@ -18,7 +18,7 @@ export default function Index() {
                 <div  className={styles.el}>
                     <div className='hidden lg:flex'>
                         <Link className='mx-3' href="./product-photography">Product</Link>
-                        <Link className='mx-3' href="./Interior-photography">Interior</Link>
+                        <Link className='mx-3' href="./Interior-photography">Interior Design</Link>
                         <Link className='mx-3' href="./About">About</Link>
                         <Link className='mx-3' href="./Quote/productPhotography">Book</Link>
                         <Link className='mx-3' href="./contact-us">Contact</Link>

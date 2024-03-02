@@ -217,80 +217,81 @@ const index = () => {
             </div>
             <div className={`${style.sliderIII}`}>
                 <div className={`${style.slidetrack} ${style.slidetrackI}`}>
-                    <div className={`${style.slide}`}>
+                <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/67ec3f4f4ef9eadf3d0e367dc4175ff962d567c4-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/2b5907581b6d608b361ad6ee180f807d6b0e199d-2840x3550.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/4b3c5b41b87871a83acc135d222b2cde58954d9b-2826x2430.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/44ff0e917d261a169e558700d8939828c9ce36eb-2553x2553.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/b399097b74cccf40452a846d9595090585ad210a-3660x2440.jpg'></img>
-                    </div>
-                    <div className={`${style.slide}`}>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/0283dc30a0631d22874175fe98cbcbff438bc2fe-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/bee165e89cca3bf293f8c5fdad285e2d99192ff9-2791x4187.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/e698e0c0c4f2833b7fdf595d38d88da3ec99bb09-3660x2437.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/cb6349c4ff6ac8b45a9f69ef8b422c7a4dc1d875-2840x4260.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/0308323edf2d2439ebfde28179f90b1d166b375c-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/c677f3508b67893d5a9e955829a163d6001c9522-2840x4260.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/9627a8210d715235b20f7f52f7459621e109e6f5-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/b2c2e6405719694123640d9ad45aa81b61fdb1e5-2846x4269.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/0f43a4da74d6bd9914950bdf1b3f426b06ab4a00-2440x3660.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/4559cbc3517b73bbf1e0d2c6fcf1a10e0cc7b103-4260x2840.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/2e1b16dd967087005734702c2c988802e6d95d55-3645x2430.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/0f5cc081ad30a402406126ff237357ccaf29a604-2840x4260.jpg'></img>
+                    </div>
+                    <div className={`${style.slide}`}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/a4a655acd4e5a69b7c2d6253616e398a9c9cbdf0-2533x3378.jpg'></img>
                     </div>
 
                     {/* asd */}
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/0e93b2a72feb8c7a3070b4bbbf335e404c32a8ca-3647x2431.jpg'></img>
+                        <img className={`${style.img}`} src ={'https://cdn.sanity.io/images/nahm0f1b/production/7c18bead9072c83c0a5c83d9e641314035e6e4c0-2842x4263.jpg'}></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/3af7aa9a8ac5d51812e458766b477fca4624d7f4-3304x2430.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/1b8191504b3d2df11f5a656e5fe3625560724b3b-2822x4226.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/6577f2bc27a09590eb22954248f7c8a73454a501-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/27f06dd80d40a02304356a57e6597e8d978e87f7-2617x3272.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/5890940bee2f0a774a13f5332f557234041b1774-3645x2430.jpg'></img>
+                         <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/44e2f43975fe0d35802691d94fa38b19976a075d-2831x4246.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/6990d70fb4345d70da39383d9124b7afb190b7f7-2440x3660.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/21e3c123c1d7e19fc0d196e7a09afaed24b44a3f-2840x3550.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/003b39b33c2a8510d4cddf0cf87c679157f13a8c-3647x2431.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://images.unsplash.com/photo-1630261234684-d22b0892a809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/67ec3f4f4ef9eadf3d0e367dc4175ff962d567c4-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=799&q=80'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/0283dc30a0631d22874175fe98cbcbff438bc2fe-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/a7a4467a4162f79877e5dde7a48d191179372943-2701x3601.jpg'></img>
                     </div>
                     <div className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/9627a8210d715235b20f7f52f7459621e109e6f5-3660x2440.jpg'></img>
+                        <img className={`${style.img}`} src = 'https://cdn.sanity.io/images/nahm0f1b/production/5b2eeeb8bf4c4504f49a791664a04ea89419e273-2840x4260.jpg'></img>
                     </div>
+                    
                 </div>
             </div>
         </div>

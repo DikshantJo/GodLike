@@ -43,8 +43,8 @@ const Gallery = ({ images }) => {
     if (showModal) {
       const touchEndX = e.touches[0].clientX;
       const deltaX = touchEndX - touchStartX;
-
-      if (deltaX > 50) {
+      console.log(deltaX)
+      if (deltaX > 1500) {
         navigateImages(-1); // Swipe right
       } else if (deltaX < -50) {
         navigateImages(1); // Swipe left
@@ -146,13 +146,13 @@ const Gallery = ({ images }) => {
               className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex items-center justify-center"
               onClick={closeModal} style={{zIndex:'999'}}
             >
-              <div className="modal-content" style={{width:'100%',height:'100%'}}>
+              <div className="modal-content" style={{width:'100%',height:'100%'}}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={() => setTouchStartX(0)}>
                 <span
                   className="absolute top-0 right-0 m-4 text-white text-2xl cursor-pointer"
                   onClick={closeModal}
-                  onTouchStart={handleTouchStart}
-                  onTouchMove={handleTouchMove}
-                  onTouchEnd={() => setTouchStartX(0)}
                 >
                   &times;
                 </span>

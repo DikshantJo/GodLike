@@ -16,9 +16,14 @@ const links = [
     src: "home.png"
   },
   {
-    title: "Contact",
-    href: "/contact-us",
-    src: "contact.png"
+    title: "Product",
+    href: "/product-photography",
+    src: "shop.png"
+  },
+  {
+    title: "Interior Design",
+    href: "/Interior-photography",
+    src: "lookbook.png"
   },
   {
     title: "Book",
@@ -26,15 +31,12 @@ const links = [
     src: "contact.png"
   },
   {
-    title: "Product",
-    href: "/product-photography",
-    src: "shop.png"
+    title: "Contact",
+    href: "/contact-us",
+    src: "contact.png"
   },
-  {
-    title: "Interior",
-    href: "/Interior-photography",
-    src: "lookbook.png"
-  },
+  
+  
 ]
 
 export default function Index() {
