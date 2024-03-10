@@ -23,8 +23,8 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure: true,
   auth: {
-    user: 'dikshantjoshi97@gmail.com',
-    pass: 'vjlditpwwpzkglxc',
+    user: 'reachgodlikestudio@gmail.com',
+    pass: 'oxclfyyvpbrmplly',
   },
 });
 
@@ -101,9 +101,9 @@ export default async function handler(req, res) {
 
     //Email Transporter Settings
     const emailRes = await transporter.sendMail({
-      from: "dikshantjoshi97@gmail.com",
+      from: "reachgodlikestudio@gmail.com",
       replyTo: `${careerName} <${careerEmail}>`,
-      to: "dikshantjoshi97@gmail.com",
+      to: "reachgodlikestudio@gmail.com",
       subject: `Quote request for ${Page} from ${careerName}`,
       html: `
           <p style='width:700px'><strong>Name:</strong></p>
