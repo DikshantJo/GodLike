@@ -141,35 +141,52 @@ const Gallery = ({ images }) => {
           ))}
 
             {/* Modal */}
-          {showModal && (
-            <div
-              className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex items-center justify-center"
-              onClick={closeModal} style={{zIndex:'999'}}
+             {/* Modal */}
+     {showModal && (
+        <div
+            className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex items-center justify-center"
+            onClick={closeModal} style={{zIndex:'999'}}
+        >
+            <div className="modal-content" style={{width:'100%',height:'100%'}}
+            // onTouchStart={handleTouchStart}
+            // onTouchMove={handleTouchMove}
+            // onTouchEnd={() => setTouchStartX(0)}
             >
-              <div className="modal-content" style={{width:'100%',height:'100%'}}
-                onTouchStart={handleTouchStart}
-                onTouchMove={handleTouchMove}
-                onTouchEnd={() => setTouchStartX(0)}>
                 <span
-                  className="absolute top-0 right-0 m-4 text-white text-2xl cursor-pointer"
-                  onClick={closeModal}
+                    className="absolute top-0 right-0 m-4 text-white text-2xl cursor-pointer"
+                    onClick={closeModal}
                 >
-                  &times;
+                    &times;
+                </span>
+                <span
+                    className="absolute flex items-center justify-center top-50 left-0 m-4 text-white text-2xl cursor-pointer transform -translate-y-1/2 bg-black bg-opacity-80 rounded-full w-10 h-10" style={{top:'50%'}}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setCurrentImageIndex(currentImageIndex - 1 < 0 ? project.length - 1 : currentImageIndex - 1);
+                    }}
+                >
+                    &larr;
+                </span>
+                <span
+                    className="absolute flex items-center justify-center top-50 right-0 m-4 text-white text-2xl cursor-pointer transform -translate-y-1/2 bg-black bg-opacity-80 rounded-full w-10 h-10" style={{top:'50%'}}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setCurrentImageIndex((currentImageIndex + 1) % project.length);
+                    }}
+                >
+                    &rarr;
                 </span>
                 <Image
-                  // fill={true}
-                  src={project[currentImageIndex].image}
-                  alt={`Modal Image`}
-                  width={100}
-                  height={100}
-                  // className="w-full h-auto"
-                  // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  unoptimized
-                  style={{width:'100%',height:'100%', objectFit:'contain'}}
+                    src={project[currentImageIndex].image}
+                    alt={`Modal Image`}
+                    width={100}
+                    height={100}
+                    unoptimized
+                    style={{width:'100%',height:'100%', objectFit:'contain'}}
                 />
-              </div>
             </div>
-          )}
+        </div>
+      )}
         </div>
         {/* <div className="grid gap-1 p-6 lg:p-14 pt-6 lg:pt-10" style={{gridTemplateColumns:'repeat(autofit, minmax(250px, 1fr))', gridAutoRows:'200px', gridAutoFlow:'dense'}}>
           {project.map((pro, index) => (
