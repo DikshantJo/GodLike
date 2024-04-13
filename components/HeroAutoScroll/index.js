@@ -3,7 +3,7 @@ import style from './style.module.scss'
 import Link from 'next/link'
 import { Italiana, Lato, Prata } from 'next/font/google'
 import { useEffect, useState } from 'react'
-import { HomeLeft,SliderRight,Slidercenter } from '@/sanity/sanity-utils';
+import { Slidercenter, SliderRight , SliderLeft } from '@/sanity/sanity-utils';
 
 
 export const italiana = Italiana({
@@ -60,15 +60,15 @@ const images = [
   ];
 
 const Index = () => {
-    const [ SliderLeft, setSliderLeft] = useState([])
-    const [ SliderRights, setSliderRight] = useState([])
-    const [ SliderHome, setSliderHome] = useState([])
+    const [ SlideLeft, setSliderLeft] = useState([])
+    const [ SlideRight, setSliderRight] = useState([])
+    const [ SlideHome, setSliderHome] = useState([])
     useEffect(()=>{
         (
           async () => {
-            const Home = await HomeLeft();
-            const projectLeft = await SliderRight();
-            const projectRight = await Slidercenter();
+            const Home = await Slidercenter();
+            const projectRight = await SliderRight();
+            const projectLeft = await SliderLeft();
             setSliderHome(Home)
             setSliderLeft(projectLeft)
             setSliderRight(projectRight)
@@ -76,25 +76,22 @@ const Index = () => {
         )()
     },[])
 
-    
-
   return (
     <div className={`flex justify-between items-center w-full h-full`}>
         <div className='flex justify-between items-center w-full h-full bg-black'>
             <div className={`${style.sliderI}`}>
                 <div className={`${style.slidetrack} `}>
-                {SliderLeft.map((pro, index) => (
-                    <div key={index} className={`${style.slide}`}>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img className={`${style.img}`} src={pro.image } ></img>
-                    </div>
-                ))}
-               
+                    {SlideLeft.map((pro, index) => (
+                        <div key={index} className={`${style.slide}`}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img className={`${style.img}`} src={pro.image } ></img>
+                        </div>
+                    ))}
                 </div>
             </div>
             <div className={`${style.sliderII}`}>
                 <div className={`${style.slidetrack} ${style.slidetrackII}`}>
-                    {SliderHome.map((pro, index) => (
+                    {SlideHome.map((pro, index) => (
                         <div key={index} className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img className={`${style.img}`} src={pro.image } ></img>
@@ -104,7 +101,7 @@ const Index = () => {
             </div>
             <div className={`${style.sliderIII}`}>
                 <div className={`${style.slidetrack} ${style.slidetrackI}`}>
-                    {SliderRights.map((pro, index) => (
+                    {SlideRight.map((pro, index) => (
                         <div key={index} className={`${style.slide}`}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img className={`${style.img}`} src={pro.image } ></img>

@@ -76,7 +76,7 @@ export async function getPolcies() {
     );
 }
 
-export async function HomeLeft() {
+export async function SliderLeft() {
     const client = createClient({
         projectId: 'nahm0f1b',
         dataset: 'production',
