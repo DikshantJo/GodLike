@@ -59,7 +59,7 @@ const images = [
     // Add more image paths here
   ];
 
-const index = () => {
+const Index = () => {
     const [ SliderLeft, setSliderLeft] = useState([])
     const [ SliderRights, setSliderRight] = useState([])
     const [ SliderHome, setSliderHome] = useState([])
@@ -74,7 +74,6 @@ const index = () => {
             setSliderRight(projectRight)
           }
         )()
-        
     },[])
 
     
@@ -158,4 +157,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
