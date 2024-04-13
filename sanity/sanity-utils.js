@@ -76,3 +76,51 @@ export async function getPolcies() {
     );
 }
 
+export async function HomeLeft() {
+    const client = createClient({
+        projectId: 'nahm0f1b',
+        dataset: 'production',
+        apiVersion: '2023-10-01',
+    });
+
+    return client.fetch(
+        groq`*[_type == "HomeLeft"] {
+            name,
+            "image": image.asset->url, // Corrected the typo here
+            url,
+        }`
+    );
+}
+
+
+export async function SliderRight() {
+    const client = createClient({
+        projectId: 'nahm0f1b',
+        dataset: 'production',
+        apiVersion: '2023-10-01',
+    });
+
+    return client.fetch(
+        groq`*[_type == "SliderRight"] {
+            name,
+            "image": image.asset->url, // Corrected the typo here
+            url,
+        }`
+    );
+}
+
+export async function Slidercenter() {
+    const client = createClient({
+        projectId: 'nahm0f1b',
+        dataset: 'production',
+        apiVersion: '2023-10-01',
+    });
+
+    return client.fetch(
+        groq`*[_type == "Slidercenter"] {
+            name,
+            "image": image.asset->url, // Corrected the typo here
+            url,
+        }`
+    );
+}

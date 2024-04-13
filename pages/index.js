@@ -39,7 +39,7 @@ const Page = () => {
       const locomotiveScroll = new LocomotiveScroll();
 
       const isFirstVisit = localStorage.getItem('isFirstVisit');
-      if (!isFirstVisit) {
+      // if (!isFirstVisit) {
         const visitTimestamp = new Date().getTime();
         localStorage.setItem('isFirstVisit', visitTimestamp.toString());
         setTimeout(() => {
@@ -50,19 +50,20 @@ const Page = () => {
         setTimeout (()=>{
           setLoadingAssist(false)
         },7000)
-      } else {
-        const visitTimestamp = parseInt(isFirstVisit, 10);
-        const thirtyMinutes = 30 * 60 * 1000; // 30 minutes in milliseconds
+      // } 
+      // else {
+        // const visitTimestamp = parseInt(isFirstVisit, 10);
+        // const thirtyMinutes = 30 * 60 * 1000; // 30 minutes in milliseconds
 
-        if (new Date().getTime() - visitTimestamp > thirtyMinutes) {
-          // If more than 30 minutes have passed, clear localStorage
-          localStorage.clear();
-        }
+        // if (new Date().getTime() - visitTimestamp > thirtyMinutes) {
+        //   // If more than 30 minutes have passed, clear localStorage
+        //   localStorage.clear();
+        // }
 
         // Don't show the preloader on subsequent visits
-        setLoadingAssist(false)
-        setIsLoading(false);
-      }
+        // setLoadingAssist(false)
+        // setIsLoading(true);
+      // }
     })();
   }, []);
 

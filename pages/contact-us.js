@@ -62,8 +62,8 @@ const ContactForm = () => {
     'General videography',
     'Lifestyle location shoot',
     'Model Studio Shoot',
-    'Music videos',
-    'Wedding films',
+    // 'Music videos',
+    // 'Wedding films',
   ];
 
   const handleCheckboxChange = (option) => {
@@ -134,7 +134,7 @@ const ContactForm = () => {
         <div className='sm:w-full md:w-full mt-4 lg:mt-0 w-full lg:w-[40%] flex flex-col items-start justify-between relative h-full' style={{background:'#011C2A',borderRadius: '24px'}}>
            <div className='flex flex-col justify-start items-start p-6 lg:p-14'>
               <h2 className='text-white text-[32px] lg:text-6xl mb-6'>Contact Information</h2>
-              <span className='text-white text-[18px]'>Email: hello@godlikestudio.com</span>
+              <span className='text-white text-[18px]'>Email:reachgodlikestudio@gmail.com</span>
               <span className='text-white text-[18px] mt-6'>If you’re after a general price range, you can use the contact form here (please note we will require more information to refine your quote).</span>
               <Image src={circle} alt='circle' style={{position:'absolute',bottom:'45px', right:'45px'}} />
            </div>
